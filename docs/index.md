@@ -58,4 +58,4 @@ Below is a list of general performance engineering resources.
 ## Courses
 
   * [Ilya Grigorik - Website Performance Optimization - The Critical Rendering Path](https://www.udacity.com/course/website-performance-optimization--ud884)
-  * [MIT OCW - 6.172 | Fall 2018 | Performance Engineering Of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/video_galleries/lecture-videos/)
+  * [MIT OCW - Performance Engineering Of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/video_galleries/lecture-videos/)
