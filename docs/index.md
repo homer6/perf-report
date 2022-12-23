@@ -2,6 +2,8 @@
 
 Perf Report is a free program to generate a full systems performance PDF report on a kubernetes cluster.
 
+Below is a list of general performance engineering resources.
+
 ## Performance Resources
 
   * [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
@@ -22,6 +24,8 @@ Perf Report is a free program to generate a full systems performance PDF report 
   * [https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html](https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html)
   * [https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md](https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md)
   * [https://github.com/brendangregg/pmc-cloud-tools](https://github.com/brendangregg/pmc-cloud-tools)
+  * [Ilya Grigorik homepage](https://www.igvita.com/)
+
 
 
 ## Books and Videos
@@ -33,6 +37,8 @@ Perf Report is a free program to generate a full systems performance PDF report 
   * [Mike Acton at HandmadeCon 2015](https://www.youtube.com/watch?v=qWJpI2adCcs)
   * [Cloud Performance Root Cause Analysis at Netflix • Brendan Gregg • YOW! 2018](https://www.youtube.com/watch?v=LLZmTuTSEB8)
   * [Brendan Gregg talks about Extended BPF - A new software type](https://www.youtube.com/watch?v=7pmXdG8-7WU)
+  * [Ilya Grigorik - Mobile frontends and networking - Breaking the 1000ms Time to Glass Mobile Barrier](https://www.youtube.com/watch?v=Il4swGfTOSM)
+  * [Ilya Grigorik - High Performance Browser Networking - O'Reilly ](https://www.igvita.com/)
 
 ## Observability Tools
 
@@ -40,9 +46,16 @@ Perf Report is a free program to generate a full systems performance PDF report 
   * [https://sysdig.com/](https://sysdig.com/)
   * [https://www.loggly.com/](https://www.loggly.com/)
   * [https://grafana.com/](https://grafana.com/)
+  * [Atlas time series datastore](https://netflix.github.io/atlas-docs/)
+  * [Istio Observability](https://istio.io/latest/docs/concepts/observability/)
 
 ## Documentation and Dataviz Resources
 
   * [https://pandoc.org/](https://pandoc.org/)
   * [https://godotengine.org/](https://godotengine.org/)
   * [https://galaxy.opensyllabus.org/](https://galaxy.opensyllabus.org/)
+
+## Courses
+
+  * [Ilya Grigorik - Website Performance Optimization - The Critical Rendering Path](https://www.udacity.com/course/website-performance-optimization--ud884)
+  * [MIT OCW - 6.172 | Fall 2018 | Performance Engineering Of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/video_galleries/lecture-videos/)
