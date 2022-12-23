@@ -40,6 +40,8 @@ Below is a list of general performance engineering resources.
   * [Brendan Gregg talks about Extended BPF - A new software type](https://www.youtube.com/watch?v=7pmXdG8-7WU)
   * [Ilya Grigorik - Mobile frontends and networking - Breaking the 1000ms Time to Glass Mobile Barrier](https://www.youtube.com/watch?v=Il4swGfTOSM)
   * [Ilya Grigorik - High Performance Browser Networking - O'Reilly ](https://www.igvita.com/)
+  * [The Linux Programming Interface](https://man7.org/tlpi/index.html)
+
 
 ## Observability Tools
 
