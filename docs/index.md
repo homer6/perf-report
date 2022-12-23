@@ -29,7 +29,7 @@ Perf Report is a free program to generate a full systems performance PDF report 
   * [https://www.brendangregg.com/systems-performance-2nd-edition-book.html](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
   * [https://www.brendangregg.com/bpf-performance-tools-book.html](https://www.brendangregg.com/bpf-performance-tools-book.html)
   * [https://www.amazon.com/Art-Writing-Efficient-Programs-optimizations/dp/1800208111](https://www.amazon.com/Art-Writing-Efficient-Programs-optimizations/dp/1800208111)
-  * [Mike Acton discussing data-oriented design](https://www.youtube.com/watch?v=rX0ItVEVjHc)
+  * [Very important video: Mike Acton discussing data-oriented design](https://www.youtube.com/watch?v=rX0ItVEVjHc)
   * [Mike Acton at HandmadeCon 2015](https://www.youtube.com/watch?v=qWJpI2adCcs)
   * [Cloud Performance Root Cause Analysis at Netflix • Brendan Gregg • YOW! 2018](https://www.youtube.com/watch?v=LLZmTuTSEB8)
   * [Brendan Gregg talks about Extended BPF - A new software type](https://www.youtube.com/watch?v=7pmXdG8-7WU)
