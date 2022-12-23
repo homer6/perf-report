@@ -25,6 +25,7 @@ Below is a list of general performance engineering resources.
   * [https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md](https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md)
   * [https://github.com/brendangregg/pmc-cloud-tools](https://github.com/brendangregg/pmc-cloud-tools)
   * [Ilya Grigorik homepage](https://www.igvita.com/)
+  * [C++ Core Guidelines - Performance](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
 
 
 
