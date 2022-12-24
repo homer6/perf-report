@@ -2,7 +2,7 @@
 
 Perf Report is a free program to generate a full systems performance PDF report on a kubernetes cluster.
 
-Below is a list of general performance engineering resources.
+Below is a list of general performance engineering resources (and some kubernetes resources too).
 
 
 ## Performance Resources
@@ -41,9 +41,16 @@ Below is a list of general performance engineering resources.
   * [Mike Acton at HandmadeCon 2015](https://www.youtube.com/watch?v=qWJpI2adCcs)
   * [Cloud Performance Root Cause Analysis at Netflix • Brendan Gregg • YOW! 2018](https://www.youtube.com/watch?v=LLZmTuTSEB8)
   * [Brendan Gregg talks about Extended BPF - A new software type](https://www.youtube.com/watch?v=7pmXdG8-7WU)
+  * [CppCon 2017: Carl Cook "When a Microsecond Is an Eternity: High Performance Trading Systems in C++" - whole video is great, but pointed to a fun part of the video](https://youtu.be/NH1Tta7purM?t=2274)
   * [Ilya Grigorik - Mobile frontends and networking - Breaking the 1000ms Time to Glass Mobile Barrier](https://www.youtube.com/watch?v=Il4swGfTOSM)
   * [Ilya Grigorik - High Performance Browser Networking - O'Reilly ](https://www.igvita.com/)
   * [The Linux Programming Interface](https://man7.org/tlpi/index.html)
+  * [Branchless Programming in C++ - Fedor Pikus - CppCon 2021](https://www.youtube.com/watch?v=g-WPhYREFjk)
+  * [CppCon 2016: Fedor Pikus "The speed of concurrency (is lock-free faster?)"](https://www.youtube.com/watch?v=9hJkWwHDDxs)
+  * [Core C++ 2019 :: Avi Kivity :: Building efficient I/O intensive applications with Seastar](https://www.youtube.com/watch?v=p8d28t4qCTY)
+  * [How to Make Linux Microservice-Aware with Cilium and eBPF](https://www.youtube.com/watch?v=_Iq1xxNZOAo)
+  * [Production Kubernetes](https://www.oreilly.com/library/view/production-kubernetes/9781492092292/)
+  * [Building Event-Driven Microservices](https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888)
 
 
 ## Observability Tools
@@ -67,6 +74,7 @@ Below is a list of general performance engineering resources.
 
   * [Ilya Grigorik - Website Performance Optimization - The Critical Rendering Path](https://www.udacity.com/course/website-performance-optimization--ud884)
   * [MIT OCW - Performance Engineering Of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/video_galleries/lecture-videos/)
+  * [Kube Academy](https://kube.academy/)
 
 
 ## Analysis by Component
