@@ -17,6 +17,7 @@ Below is a list of general performance engineering resources.
   * [https://perf.wiki.kernel.org/index.php/Main_Page](https://perf.wiki.kernel.org/index.php/Main_Page)
   * [https://github.com/iovisor/bpftrace](https://github.com/iovisor/bpftrace)
   * [https://github.com/iovisor/bpftrace#tools](https://github.com/iovisor/bpftrace#tools)
+  * [https://github.com/iovisor/bpftrace/tree/master/tools](https://github.com/iovisor/bpftrace/tree/master/tools)
   * [https://github.com/iovisor/bcc](https://github.com/iovisor/bcc)
   * [https://github.com/iovisor/bcc/tree/master/examples](https://github.com/iovisor/bcc/tree/master/examples)
   * [https://github.com/iovisor/ply](https://github.com/iovisor/ply)
