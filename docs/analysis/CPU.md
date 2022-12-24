@@ -69,3 +69,5 @@ docker run --rm -it -v /tmp/profiles:/profiles:ro -p 5000:5000 flamescope
 So many examples from [Brendan Gregg's homepage's perf examples](https://www.brendangregg.com/perf.html#UsageExamples).
 
 See Chapter 13 from [Systems Performance](https://www.brendangregg.com/systems-performance-2nd-edition-book.html).
+
+[Official perf wiki](https://perf.wiki.kernel.org/index.php/Main_Page).
