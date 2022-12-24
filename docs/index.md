@@ -49,6 +49,7 @@ Below is a list of general performance engineering resources (and some kubernete
   * [CppCon 2016: Fedor Pikus "The speed of concurrency (is lock-free faster?)"](https://www.youtube.com/watch?v=9hJkWwHDDxs)
   * [Core C++ 2019 :: Avi Kivity :: Building efficient I/O intensive applications with Seastar](https://www.youtube.com/watch?v=p8d28t4qCTY)
   * [How to Make Linux Microservice-Aware with Cilium and eBPF](https://www.youtube.com/watch?v=_Iq1xxNZOAo)
+  * [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
   * [Production Kubernetes](https://www.oreilly.com/library/view/production-kubernetes/9781492092292/)
   * [Building Event-Driven Microservices](https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888)
 
