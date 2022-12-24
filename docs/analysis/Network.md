@@ -2,6 +2,18 @@
 
 Most of these are copied or adapted from Brendan Gregg's books, his website, or the [IO Visor Project](https://github.com/iovisor).
 
+
+## common
+
+```
+# check network interface throughput
+sar -n DEV 1
+
+# number of locally initiated connections (active/connect) per second, remotely (passive/accept), retrans
+sar -n TCP,ETCP 1
+```
+
+
 ## bpftrace
 
 ```
@@ -16,4 +28,7 @@ bpftrace -e 't:syscalls:sys_exit_connect /args->ret < 0/ { @[comm, - args->ret ]
 
 # Received bytes, by command
 bpftrace -e 'kr:tcp_recvmsg /retval >= 0/ { @recv_bytes[comm] = hist(retval) }'
+
+# Sent bytes, by command
+bpftrace -e 'k:tcp_sendmsg { @send_bytes[comm] = hist(arg2); }'
 ```

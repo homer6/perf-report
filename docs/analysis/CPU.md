@@ -2,6 +2,30 @@
 
 Most of these are copied or adapted from Brendan Gregg's books, his website, or the [IO Visor Project](https://github.com/iovisor).
 
+
+## common
+
+```
+# system at a glance; press c to show command arguments
+htop
+
+# load averages (1 minute, 5 minute, 15 minute) for runnable or IO-blocked
+uptime
+
+# check for system errors (eg. oom-killed, TCP drops)
+dmesg | tail
+
+# show running and runnable tasks, cpu idle
+vmstat 1
+
+# see idle, per cpu
+mpstat -P ALL 1
+
+# see running process (tasks), and their average CPU usage
+pidstat 1
+```
+
+
 ## bpftrace
 
 ```
@@ -38,3 +62,10 @@ sudo perf script --header > /tmp/profiles/test-01.profile
 
 docker run --rm -it -v /tmp/profiles:/profiles:ro -p 5000:5000 flamescope
 ```
+
+
+## perf
+
+So many examples from [Brendan Gregg's homepage's perf examples](https://www.brendangregg.com/perf.html#UsageExamples).
+
+See Chapter 13 from [Systems Performance](https://www.brendangregg.com/systems-performance-2nd-edition-book.html).

@@ -2,6 +2,14 @@
 
 Most of these are copied or adapted from Brendan Gregg's books, his website, or the [IO Visor Project](https://github.com/iovisor).
 
+
+## common
+
+```
+# display disk device bytes written and read, average io await
+iostat -xz 1
+```
+
 ## bpftrace
 
 ```
@@ -10,6 +18,9 @@ bpftrace -e 'tracepoint:syscalls:sys_enter_open { printf("%s %s\n", comm, str(ar
 
 # Read bytes by process:
 bpftrace -e 'tracepoint:syscalls:sys_exit_read /args->ret/ { @[comm] = sum(args->ret); }'
+
+# Files opened, by command:
+bpftrace -e 'kprobe:do_sys_open { printf("opening: %s\n", str(arg1)); }'
 
 # Read size distribution by process:
 bpftrace -e 'tracepoint:syscalls:sys_exit_read { @[comm] = hist(args->ret); }'

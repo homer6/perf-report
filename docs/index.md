@@ -4,8 +4,10 @@ Perf Report is a free program to generate a full systems performance PDF report 
 
 Below is a list of general performance engineering resources.
 
+
 ## Performance Resources
 
+  * 60 second analysis from Section 3.3 of [BPF Performance Tools](https://www.brendangregg.com/bpf-performance-tools-book.html)
   * [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
   * [https://github.com/brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph)
   * [https://github.com/Netflix/flamescope](https://github.com/Netflix/flamescope)
@@ -24,6 +26,7 @@ Below is a list of general performance engineering resources.
   * [https://www.brendangregg.com/ebpf.html](https://www.brendangregg.com/ebpf.html)
   * [https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html](https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html)
   * [https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md](https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md)
+  * [bpftrace probes](https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md#probes)
   * [https://github.com/brendangregg/pmc-cloud-tools](https://github.com/brendangregg/pmc-cloud-tools)
   * [Ilya Grigorik homepage](https://www.igvita.com/)
   * [C++ Core Guidelines - Performance](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
