@@ -29,7 +29,6 @@ Below is a list of general performance engineering resources.
   * [C++ Core Guidelines - Performance](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
 
 
-
 ## Books and Videos
 
   * [https://www.brendangregg.com/systems-performance-2nd-edition-book.html](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
@@ -53,13 +52,23 @@ Below is a list of general performance engineering resources.
   * [Atlas time series datastore](https://netflix.github.io/atlas-docs/)
   * [Istio Observability](https://istio.io/latest/docs/concepts/observability/)
 
+
 ## Documentation and Dataviz Resources
 
   * [https://pandoc.org/](https://pandoc.org/)
   * [https://godotengine.org/](https://godotengine.org/)
   * [https://galaxy.opensyllabus.org/](https://galaxy.opensyllabus.org/)
 
+
 ## Courses
 
   * [Ilya Grigorik - Website Performance Optimization - The Critical Rendering Path](https://www.udacity.com/course/website-performance-optimization--ud884)
   * [MIT OCW - Performance Engineering Of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/video_galleries/lecture-videos/)
+
+
+## Analysis by Component
+
+ * [CPU](analysis/CPU.md)
+ * [Memory](analysis/Memory.md)
+ * [Filesystem or Disk](analysis/FilesystemDisk.md)
+ * [Network](analysis/Network.md)
