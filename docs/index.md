@@ -45,6 +45,7 @@ Below is a list of general performance engineering resources (and some kubernete
   * [Ilya Grigorik - Mobile frontends and networking - Breaking the 1000ms Time to Glass Mobile Barrier](https://www.youtube.com/watch?v=Il4swGfTOSM)
   * [Ilya Grigorik - High Performance Browser Networking - O'Reilly ](https://www.igvita.com/)
   * [The Linux Programming Interface](https://man7.org/tlpi/index.html)
+  * [CppCon 2017: Fedor Pikus "C++ atomics, from basic to advanced. What do they really do?"](https://www.youtube.com/watch?v=ZQFzMfHIxng)
   * [Branchless Programming in C++ - Fedor Pikus - CppCon 2021](https://www.youtube.com/watch?v=g-WPhYREFjk)
   * [CppCon 2016: Fedor Pikus "The speed of concurrency (is lock-free faster?)"](https://www.youtube.com/watch?v=9hJkWwHDDxs)
   * [Core C++ 2019 :: Avi Kivity :: Building efficient I/O intensive applications with Seastar](https://www.youtube.com/watch?v=p8d28t4qCTY)
