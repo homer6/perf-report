@@ -5,9 +5,12 @@ Most of these are copied or adapted from Brendan Gregg's books, his website, or 
 ## bpftrace
 
 ```
-# Count page faults by process
+# Count page faults, by command
 bpftrace -e 'software:faults:1 { @[comm] = count(); }'
 
-# Count LLC cache misses by process name and PID (uses PMCs):
+# Count LLC cache misses, by command and PID (uses PMCs):
 bpftrace -e 'hardware:cache-misses:1000000 { @[comm, pid] = count(); }'
+
+# Heap expansion, by command
+bpftrace -e 'tracepoint:syscalls:sys_enter_brk { @[comm] = count(); }'
 ```
