@@ -68,6 +68,7 @@ Below is a list of general performance engineering resources.
 
 ## Analysis by Component
 
+ * [Install](analysis/Install.md)
  * [CPU](analysis/CPU.md)
  * [Memory](analysis/Memory.md)
  * [Filesystem or Disk](analysis/FilesystemDisk.md)
