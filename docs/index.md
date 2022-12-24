@@ -41,7 +41,7 @@ Below is a list of general performance engineering resources (and some kubernete
   * [Mike Acton at HandmadeCon 2015](https://www.youtube.com/watch?v=qWJpI2adCcs)
   * [Cloud Performance Root Cause Analysis at Netflix • Brendan Gregg • YOW! 2018](https://www.youtube.com/watch?v=LLZmTuTSEB8)
   * [Brendan Gregg talks about Extended BPF - A new software type](https://www.youtube.com/watch?v=7pmXdG8-7WU)
-  * [CppCon 2017: Carl Cook "When a Microsecond Is an Eternity: High Performance Trading Systems in C++" - whole video is great, but pointed to a fun part of the video](https://youtu.be/NH1Tta7purM?t=2274)
+  * [CppCon 2017: Carl Cook "When a Microsecond Is an Eternity: High Performance Trading Systems in C++" - whole video is great, but pointed to a fun part of the video](https://youtu.be/NH1Tta7purM?t=2253)
   * [Ilya Grigorik - Mobile frontends and networking - Breaking the 1000ms Time to Glass Mobile Barrier](https://www.youtube.com/watch?v=Il4swGfTOSM)
   * [Ilya Grigorik - High Performance Browser Networking - O'Reilly ](https://www.igvita.com/)
   * [The Linux Programming Interface](https://man7.org/tlpi/index.html)
