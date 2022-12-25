@@ -8,6 +8,7 @@ Below is a list of general performance engineering resources (and some kubernete
 ## Performance Resources
 
   * 60 second analysis from Section 3.3 of [BPF Performance Tools](https://www.brendangregg.com/bpf-performance-tools-book.html)
+  * [bpftrace man page](https://manpages.ubuntu.com/manpages/focal/en/man8/bpftrace.bt.8.html)
   * [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
   * [https://github.com/brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph)
   * [https://github.com/Netflix/flamescope](https://github.com/Netflix/flamescope)
