@@ -9,6 +9,10 @@ Below is a list of general performance engineering resources (and some kubernete
 
   * 60 second analysis from Section 3.3 of [BPF Performance Tools](https://www.brendangregg.com/bpf-performance-tools-book.html)
   * [bpftrace man page](https://manpages.ubuntu.com/manpages/focal/en/man8/bpftrace.bt.8.html)
+  * [Linux Tracing Docs - kernel version 5.4](https://www.kernel.org/doc/html/v5.4/trace/index.html)
+  * [Linux Tracing BPF Docs - kernel version 5.4](https://www.kernel.org/doc/html/v5.4/bpf/index.html)
+  * [Cilium BPF and XDP Reference Guide](https://docs.cilium.io/en/latest/bpf/)
+  * [Cilium BPF and XDP Reference Guide - Further Reading](https://docs.cilium.io/en/latest/bpf/resources/#further-reading)
   * [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
   * [https://github.com/brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph)
   * [https://github.com/Netflix/flamescope](https://github.com/Netflix/flamescope)

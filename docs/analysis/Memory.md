@@ -20,6 +20,12 @@ free -m
 # Count page faults, by command
 bpftrace -e 'software:faults:1 { @[comm] = count(); }'
 
+# Count minor faults, by command
+bpftrace -e 'software:minor-faults { @[comm] = count(); }'
+
+# Count major faults, by command
+bpftrace -e 'software:major-faults { @[comm] = count(); }'
+
 # Count page faults, by command
 bpftrace -e 'tracepoint:exceptions:page_fault_user { @[comm] = count(); }'
 

@@ -46,6 +46,15 @@ bpftrace -e 'profile:hz:99 /pid == 189/ { @[ustack] = count(); }'
 
 # Stack trace for application
 bpftrace -e 'profile:hz:49 /comm == "chrome"/ { @[ustack] = count(); }'
+
+# Count context switches, by command (this output looks wrong)
+bpftrace -e 'software:context-switches { @[comm] = count(); }'
+
+# Count context switches, by command
+bpftrace -e 'tracepoint:sched:sched_switch { @[comm] = count(); }'
+
+# Count cpu migrations, by command
+bpftrace -e 'software:cpu-migrations { @[comm] = count(); }'
 ```
 
 
