@@ -23,6 +23,9 @@ mpstat -P ALL 1
 
 # see running process (tasks), and their average CPU usage
 pidstat 1
+
+# sample all processes with perf top
+perf top -F 49 -ns comm,dso -d 10 -g -z --source --children
 ```
 
 
@@ -80,3 +83,11 @@ So many examples from [Brendan Gregg's homepage's perf examples](https://www.bre
 See Chapter 13 from [Systems Performance](https://www.brendangregg.com/systems-performance-2nd-edition-book.html).
 
 [Official perf wiki](https://perf.wiki.kernel.org/index.php/Main_Page).
+
+```
+perf record -F 99 -g
+perf report -n --children -g
+
+perf record -F 99
+perf report -ns comm,dso -v
+```
