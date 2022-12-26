@@ -28,6 +28,7 @@ Below is a list of general performance engineering resources (and some kubernete
   * [https://github.com/iovisor/bcc](https://github.com/iovisor/bcc)
   * [https://github.com/iovisor/bcc/tree/master/examples](https://github.com/iovisor/bcc/tree/master/examples)
   * [https://github.com/iovisor/ply](https://github.com/iovisor/ply)
+  * [PXL Scripts Overview](https://github.com/pixie-io/pixie/tree/main/src/pxl_scripts)
   * [https://www.brendangregg.com/ebpf.html](https://www.brendangregg.com/ebpf.html)
   * [https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html](https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html)
   * [https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md](https://github.com/iovisor/bpftrace/blob/master/docs/reference_guide.md)
