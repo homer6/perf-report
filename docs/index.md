@@ -68,6 +68,8 @@ Below is a list of general performance engineering resources (and some kubernete
   * [https://grafana.com/](https://grafana.com/)
   * [Atlas time series datastore](https://netflix.github.io/atlas-docs/)
   * [Istio Observability](https://istio.io/latest/docs/concepts/observability/)
+  * [Pixie](https://px.dev/)
+  * [Cilium and Hubble](https://github.com/cilium/hubble)
 
 
 ## Documentation and Dataviz Resources
