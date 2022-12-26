@@ -58,6 +58,8 @@ Below is a list of general performance engineering resources (and some kubernete
   * [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
   * [Production Kubernetes](https://www.oreilly.com/library/view/production-kubernetes/9781492092292/)
   * [Building Event-Driven Microservices](https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888)
+  * [A Guided Tour of Cilium Service Mesh - Liz Rice, Isovalent](https://www.youtube.com/watch?v=e10kDBEsZw4)
+  * [Hello eBPF! Goodbye Sidecar?](https://www.youtube.com/watch?v=ThtRT8dhu8c)
 
 
 ## Observability Tools
