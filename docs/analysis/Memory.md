@@ -38,6 +38,6 @@ bpftrace -e 'tracepoint:syscalls:sys_enter_brk { @[comm] = count(); }'
 # Memory allocation calls (bytes) by command, pid, user-space stack pointer (stats)
 bpftrace -e 'tracepoint:kmem:kmalloc,tracepoint:kmem:kmem_cache_alloc { @bytes[comm, pid, ustack] = stats(args->bytes_alloc); }'
 
-# Memory allocation calls (bytes) by command, pid, user-space stack pointer, filtered by pid (histogram)
-bpftrace -e 'tracepoint:kmem:kmalloc,tracepoint:kmem:kmem_cache_alloc /pid == 189/ { @bytes[comm, pid, ustack] = hist(args->bytes_alloc); }'
+# Memory allocation calls (bytes) by command, pid, thread id, user-space stack pointer, filtered by pid (histogram)
+bpftrace -e 'tracepoint:kmem:kmalloc,tracepoint:kmem:kmem_cache_alloc /pid == 189/ { @bytes[comm, pid, tid, ustack] = hist(args->bytes_alloc); }'
 ```
