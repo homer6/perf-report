@@ -8,6 +8,7 @@ Below is a list of general performance engineering resources (and some kubernete
 ## Performance Resources
 
   * 60 second analysis from Section 3.3 of [BPF Performance Tools](https://www.brendangregg.com/bpf-performance-tools-book.html)
+  * [Chapter resources from the BPF Performance Tools book](https://github.com/brendangregg/bpf-perf-tools-book/tree/master/originals)
   * [bpftrace man page](https://manpages.ubuntu.com/manpages/focal/en/man8/bpftrace.bt.8.html)
   * [Linux Tracing Docs - kernel version 5.4](https://www.kernel.org/doc/html/v5.4/trace/index.html)
   * [Linux Tracing BPF Docs - kernel version 5.4](https://www.kernel.org/doc/html/v5.4/bpf/index.html)
