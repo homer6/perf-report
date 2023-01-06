@@ -35,8 +35,11 @@ perf top -F 49 -ns comm,dso -d 10 -g -z --source --children
 # Programs started (execve) and their arguments
 sudo bpftrace -e 'tracepoint:syscalls:sys_enter_execve { join(args->argv) }'
 
-# Syscall count by program
-bpftrace -e 'tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }'
+# Syscall count by program and PID
+bpftrace -e 'tracepoint:raw_syscalls:sys_enter { @[comm, pid] = count(); }'
+
+# Syscall count by program, PID, syscall
+bpftrace -e 'tracepoint:syscalls:sys_enter_* { @[comm, pid, probe] = count(); }'
 
 # Show per-second syscall rates:
 bpftrace -e 'tracepoint:raw_syscalls:sys_enter { @ = count(); } interval:s:1 { print(@); clear(@); }'
