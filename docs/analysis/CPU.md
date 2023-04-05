@@ -79,6 +79,26 @@ docker run --rm -it -v /tmp/profiles:/profiles:ro -p 5000:5000 flamescope
 ```
 
 
+## flamescope (downloading from k8s to Windows)
+
+```
+perf record -F 99 -p 13060 -g -- sleep 60
+mkdir /tmp/profiles
+sudo perf script --header > /tmp/profiles/test-01.profile
+
+
+kubectl cp kube-system/node-shell-acf68958-54b9-466e-bd1d-63a1575e9453:/tmp/profiles/test-01.profile test-01.profile -c shell
+
+
+git clone https://github.com/Netflix/flamescope
+cd flamescope
+docker build -t flamescope .
+
+docker run --rm -it -v  "C:\\Users\\user\\profiles":/profiles:ro -p 5000:5000 flamescope
+```
+
+
+
 ## perf
 
 So many examples from [Brendan Gregg's homepage's perf examples](https://www.brendangregg.com/perf.html#UsageExamples).
